@@ -1,0 +1,14 @@
+name = "your-project-name" # Replace with your project name
+compatibility_date = "2025-04-06" # Current date, adjust as needed
+
+[build]
+command = "npm run build" # Build command as specified
+
+[build.environment]
+NODE_VERSION = "20" # Updated to Node.js version 20
+
+[[build.upload]]
+format = "service-worker" # For Next.js apps on Cloudflare Pages
+
+[env.production]
+command = "npm start" # Run command as specified
