@@ -1,12 +1,9 @@
-name = "your-project-name" # Replace with your project name
+name = "gold-nest" # Replace with your project name
 compatibility_date = "2025-04-06" # Current date, adjust as needed
 
 [build]
-command = "npm run build" # Build command
+command = "npm install && npm run build" # Install dependencies, then build
 pages_build_output_dir = ".next" # Output directory for Next.js
 
 [build.environment]
 NODE_VERSION = "20" # Node.js version 20
-
-[env.production]
-command = "npm start" # Runtime command (optional, mostly for Workers, not Pages)
