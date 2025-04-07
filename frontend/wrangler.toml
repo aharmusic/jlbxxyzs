@@ -7,3 +7,4 @@ pages_build_output_dir = ".next" # Output directory for Next.js
 
 [build.environment]
 NODE_VERSION = "20" # Node.js version 20
+NPM_VERSION = "11" # npm version 11
